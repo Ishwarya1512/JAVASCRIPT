@@ -1,0 +1,78 @@
+body{
+    background-image: url(bg.jpg);
+    }
+
+h2{
+    text-align: center;
+    color:white;
+    }
+.container{
+      background-color: lightgrey;
+      border: 10px solid blue;
+      padding: 60px;
+      margin: 20px 150px ;
+    }
+div.box {
+        box-sizing: border-box;
+        width: 50%;
+        border: 1px solid black;
+        float: left;
+        padding:10px
+}
+div.box1{
+        box-sizing: border-box;
+        width: 50%;
+
+        float: left;
+}
+input{
+        width: 100%;
+        padding:10px;
+        background-color: #bbbbbb;
+ }
+.rat{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        break-before: always;
+        margin: 0 0 3em 0;
+        border: 1px solid black;
+        padding:10px;
+        background-color: #bbbbbb;
+        width:100%;
+ }
+
+.rat1{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        break-before: always;
+        margin: 0 0 3em 0;
+        border: 1px solid black;
+        padding:5px 0px 0px;
+        width:470px;
+        background-color: #bbbbbb;
+}
+textarea{
+        background-color: #bbbbbb;
+}
+ select{
+        background-color: #bbbbbb;
+        padding:10px;
+        width:470px;
+ }
+ input[type=submit] {
+        background-color: #1E90FF;
+        width:50%;
+}
+input[type=reset] {
+        background-color: #1E90FF;
+        float: right;
+        width:50%;
+
+}
+.error{
+        color: #ff0000; /*Red Color*/
+        padding:1px;
+}
